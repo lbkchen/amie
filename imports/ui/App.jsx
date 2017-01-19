@@ -11,18 +11,11 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-
   }
-
-
 
   render() {
     return (
-      <div>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Lfb2JCXL_CqC5wcdi3wRuqwVJ-cN4jA"
-        async defer></script>
-        <Client />
-      </div>
+      
     )
   }
 }
