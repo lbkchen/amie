@@ -13,10 +13,14 @@ class App extends Component {
     super(props);
   }
 
+  onLoad() {
+    console.log("Loaded");
+  }
+
   render() {
     return (
-      
-    )
+      <Client asyncScriptOnLoad={this.onLoad} />
+    );
   }
 }
 
